@@ -1,0 +1,156 @@
+/* 清除默认内外边距 */
+
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 全局字体 */
+
+body {
+    font-family: "SimSun", "PingFang Regular", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+/* 清除默认样式 */
+
+fieldset,
+img,
+input,
+button,
+textarea {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+
+/* 清除默认列表样式 */
+
+ul,
+ol {
+    list-style: none;
+}
+
+
+/* 默认字体大小 */
+
+select,
+input,
+textarea {
+    font-size: 12px;
+    margin: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/* 清除图片底部3px */
+
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+
+/* 清除浮动 */
+
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+
+/* 清除默认下划线,加上小手 */
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+/* 清除h系列标签默认字体大小. */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 100%;
+    color: #4d4d4d;
+}
+
+
+/* 清除默认字体样式 */
+
+s,
+i,
+em {
+    font-style: normal;
+    text-decoration: none;
+}
+
+
+/* 左浮动 */
+
+.fl {
+    float: left;
+}
+
+
+/* 右浮动 */
+
+.fr {
+    float: right;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #F19601;
+    text-decoration: underline;
+}

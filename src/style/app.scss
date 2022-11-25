@@ -1,0 +1,15 @@
+body {
+  background: url(@/assets/imgs/bg.a1ea410e.png);
+  min-height: 100vh;
+  background-size:  100% 100%;
+  color: #fff;
+  overflow: hidden;
+}
+
+.row-article {
+  display: flex;
+  align-items: center;
+  .colum- {
+    flex: 1;
+  }
+}
